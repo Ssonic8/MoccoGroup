@@ -21,18 +21,33 @@ ul {
 }
 
 .section-title {
+  font-family: 'Segoe Script', sans-serif;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: normal;
+  color: $lite-red;
 }
 
 .button {
+  padding: 12px 26px;
+  background-color: $lite-red;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
   &:hover {
-    transition: all 0.4s;
+    transition: all 0.2s;
+    background-color: #f07373;
   }
 }
 
 .container {
   margin: 0 auto;
   padding: 0 0;
-  width: 1140px;
+  width: 1170px;
 }
 
 .visually-hidden:not(:focus):not(:active),
