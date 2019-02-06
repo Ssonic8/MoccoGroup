@@ -1,6 +1,10 @@
 .header {
 	min-height: 980px;
 	background: #c1dff0 url('../img/header/header-bg.jpg') top center no-repeat;
+	&__title {
+		font-size: 28px;
+		line-height: 32px;
+	}
 	&__top {
 		display: flex;
 		justify-content: space-between;

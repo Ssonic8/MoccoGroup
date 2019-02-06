@@ -1,21 +1,5 @@
 $(document).ready(function(){
-	$('#discount-carousel').owlCarousel({
-		items: 1,
-		loop: true,
-		center: true,
-		margin: 10,
-		navText: ["",""],
-		nav: true
-	});
-	$('#team-carousel').owlCarousel({
-		items: 1,
-		loop: true,
-		center: true,
-		margin: 10,
-		navText: ["",""],
-		nav: true
-	});
-	$('#docs-carousel').owlCarousel({
+	$('#features-carousel').owlCarousel({
 		items: 3,
 		loop: true,
 		center: true,
@@ -23,4 +7,20 @@ $(document).ready(function(){
 		navText: ["",""],
 		nav: true
 	});
+	// $('#team-carousel').owlCarousel({
+	// 	items: 1,
+	// 	loop: true,
+	// 	center: true,
+	// 	margin: 10,
+	// 	navText: ["",""],
+	// 	nav: true
+	// });
+	// $('#docs-carousel').owlCarousel({
+	// 	items: 3,
+	// 	loop: true,
+	// 	center: true,
+	// 	margin: 10,
+	// 	navText: ["",""],
+	// 	nav: true
+	// });
 });
