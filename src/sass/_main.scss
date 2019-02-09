@@ -21,6 +21,7 @@ ul {
 }
 
 .section-title {
+  margin: 0;
   font-family: 'Segoe Script', sans-serif;
   font-size: 24px;
   line-height: 26px;
@@ -28,7 +29,7 @@ ul {
   color: $lite-red;
 }
 .section-subtitle {
-  margin-top: 4px;
+  margin-top: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
   line-height: 32px;

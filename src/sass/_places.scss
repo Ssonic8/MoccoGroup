@@ -1,0 +1,73 @@
+.places {
+	background: url('../img/places/places-bg.jpg') top center no-repeat;
+	&__wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	& p {
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 80px;
+		width: 740px;
+	}
+	}
+	&__title {
+		padding-top: 150px;
+	}
+	&__subtitle {
+		margin-bottom: 40px;
+	}
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin-bottom: 70px;
+		&-item {
+			display: flex;
+			align-items: center;
+			margin-bottom: 80px;
+			width: 570px;
+		}
+		&-img {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 204px;
+			height: 204px;
+			border: 1px solid #cbcbcb;
+		}
+		&-content {
+			padding-left: 28px;
+		}
+		&-title {
+			margin-top: 24px;
+			margin-bottom: 24px;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 24px;
+			line-height: 26px;
+			font-weight: 700;
+			color: #000;
+		}
+		&-countries {
+			display: flex;
+			flex-wrap: wrap;
+			width: 345px;
+			& li {
+				position: relative;
+				padding-left: 30px;
+				line-height: 32px;
+				&::before {
+					position: absolute;
+					content: '';
+					width: 8px;
+					height: 8px;
+					top: 12px;
+					left: 14px;
+					background-color: transparent;
+					border: 1px solid $lite-blue;
+					border-radius: 50%;
+				}
+			}
+		}
+	}
+}

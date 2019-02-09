@@ -21,6 +21,7 @@ ul {
 }
 
 .section-title {
+  margin: 0;
   font-family: 'Segoe Script', sans-serif;
   font-size: 24px;
   line-height: 26px;
@@ -29,7 +30,7 @@ ul {
 }
 
 .section-subtitle {
-  margin-top: 4px;
+  margin-top: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
   line-height: 32px;
@@ -827,4 +828,115 @@ input[type="checkbox"].visually-hidden {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   background-color: #f07373;
+}
+
+.places {
+  background: url("../img/places/places-bg.jpg") top center no-repeat;
+}
+
+.places__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.places__wrapper p {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 80px;
+  width: 740px;
+}
+
+.places__title {
+  padding-top: 150px;
+}
+
+.places__subtitle {
+  margin-bottom: 40px;
+}
+
+.places__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+}
+
+.places__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 80px;
+  width: 570px;
+}
+
+.places__list-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 204px;
+  height: 204px;
+  border: 1px solid #cbcbcb;
+}
+
+.places__list-content {
+  padding-left: 28px;
+}
+
+.places__list-title {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000;
+}
+
+.places__list-countries {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 345px;
+}
+
+.places__list-countries li {
+  position: relative;
+  padding-left: 30px;
+  line-height: 32px;
+}
+
+.places__list-countries li::before {
+  position: absolute;
+  content: '';
+  width: 8px;
+  height: 8px;
+  top: 12px;
+  left: 14px;
+  background-color: transparent;
+  border: 1px solid #00b1ff;
+  border-radius: 50%;
 }
