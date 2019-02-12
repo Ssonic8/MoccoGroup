@@ -992,3 +992,44 @@ input[type="checkbox"].visually-hidden {
 .stats__list-comment {
   margin: 0;
 }
+
+.tour {
+  background: #42c5ff url("../img/tour/tour-bg.jpg") top center no-repeat;
+  min-height: 2200px;
+}
+
+.tour__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.tour__button-wrapper {
+  padding-top: 870px;
+  width: 440px;
+  height: 120px;
+}
+
+.tour__button span {
+  display: inline-block;
+  margin-right: 36px;
+  width: 115px;
+  height: 115px;
+  background: url("../img/tour/play.png") center no-repeat;
+  border-radius: 50%;
+  border: 5px solid transparent;
+}
+
+.tour__button span:hover {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border: 5px solid #fff;
+}
