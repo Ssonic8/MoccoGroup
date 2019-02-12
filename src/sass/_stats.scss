@@ -1,0 +1,34 @@
+.stats {
+	background-color: #ef5b5b;
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		min-height: 300px;
+	}
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		margin: 0;
+		width: 1170px;
+		&-item {
+			display: flex;
+			width: 220px;
+		}
+		&-img {
+			width: 60px;
+			height: 60px;
+			padding-right: 20px;
+		}
+		&-info {
+			color: #fff;
+		}
+		&-number {
+			font-size: 40px;
+			line-height: 40px;
+			font-weight: bold;
+		}
+		&-comment {
+			margin: 0;
+		}
+	}
+}

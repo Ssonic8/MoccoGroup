@@ -940,3 +940,55 @@ input[type="checkbox"].visually-hidden {
   border: 1px solid #00b1ff;
   border-radius: 50%;
 }
+
+.stats {
+  background-color: #ef5b5b;
+}
+
+.stats__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.stats__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0;
+  width: 1170px;
+}
+
+.stats__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 220px;
+}
+
+.stats__list-img {
+  width: 60px;
+  height: 60px;
+  padding-right: 20px;
+}
+
+.stats__list-info {
+  color: #fff;
+}
+
+.stats__list-number {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.stats__list-comment {
+  margin: 0;
+}
