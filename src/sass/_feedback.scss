@@ -1,0 +1,120 @@
+.feedback {
+	margin-top: -900px;
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__title {
+		font-weight: bold;
+		color: #000;
+	}
+	&__subtitle {
+		margin-bottom: 46px;
+		color: #fff;
+	}
+	&__slider {
+		width: 835px;
+		min-height: 470px;
+	}
+	&__slide {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 830px;
+		&-img {
+			width: 150px;
+			height: 150px;
+			background: url('../img/feedback/001.png') center no-repeat;
+			background-size: cover;
+		}
+		&-content {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-top: 35px;
+			padding: 33px 68px;
+			min-height: 230px;
+			border: 2px solid #97dcfb;
+			border-radius: 2px;
+			color: #fff;
+		}
+		&-bq {
+			width: 48px;
+			height: 40px;
+			background: url('../img/icons/left-quote.svg') center no-repeat;
+		}
+		&-text {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
+		&-author {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		&-name {
+			padding-right: 22px;
+			text-align: right;
+			font-size: 17px;
+			line-height: 20px;
+			font-weight: bold;
+			& small {
+				font-weight: normal;
+			}
+		}
+		&-rating {
+			position: relative;
+			padding-left: 22px;
+			& p {
+				margin-top: 12px;
+				margin-bottom: 4px;
+				font-size: 17px;
+				font-weight: bold;
+			}
+			&::before {
+				position: absolute;
+				content: '';
+				width: 3px;
+				height: 55px;
+				left: -2px;
+				top: 10px;
+				background-color: #fff;
+				transform: rotate(25deg);
+			}
+		}
+		&-stars {
+			display: flex;
+			align-items: center;
+			margin-top: 0;
+			height: 14px;
+			& li {
+				margin-right: 4px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+		}
+		&--star {
+			width: 14px;
+			height: 14px;
+			background: url('../img/icons/star-w.svg') center no-repeat;
+			background-size: contain;
+		}
+		&--star-half {
+			width: 14px;
+			height: 14px;
+			background: url('../img/icons/star-half-w.svg') center no-repeat;
+			background-size: contain;
+		}
+		&--star-empty {
+			width: 14px;
+			height: 14px;
+			background: url('../img/icons/star-empty-w.svg') center no-repeat;
+			background-size: contain;
+		}
+	}
+}
