@@ -1221,3 +1221,130 @@ input[type="checkbox"].visually-hidden {
   background: url("../img/icons/star-empty-w.svg") center no-repeat;
   background-size: contain;
 }
+
+.blog__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.blog__title {
+  padding-top: 410px;
+}
+
+.blog__subtitle {
+  margin-bottom: 90px;
+}
+
+.blog__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.blog__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 50px;
+  width: 565px;
+}
+
+.blog__item-img {
+  width: 200px;
+  height: 220px;
+}
+
+.blog__item-content {
+  width: 350px;
+}
+
+.blog__item-title {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #000;
+}
+
+.blog__item-text {
+  margin-bottom: 0;
+}
+
+.blog__item-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog__item-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 90px;
+  line-height: 16px;
+}
+
+.blog__item-date span {
+  display: inline-block;
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  background: url("../img/icons/calendar.svg") center no-repeat;
+  background-size: contain;
+}
+
+.blog__item-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 16px;
+}
+
+.blog__item-time span {
+  display: inline-block;
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  background: url("../img/icons/clock.svg") center no-repeat;
+  background-size: contain;
+}
+
+.blog__button {
+  display: inline-block;
+  padding: 12px 36px;
+}
+
+.blog__button-wrapper {
+  margin-bottom: 200px;
+}
+
+.blog__button img {
+  margin-left: 4px;
+}
